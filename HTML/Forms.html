@@ -10,8 +10,13 @@
 <body>
   <h1>Forms Demo</h1>
 
-  <form action="/search">
+  <!-- 폼 태그 바깥이라서 폼 제출은 안함. 단지 버튼일뿐 -->
+  <button>Outside form</button>
 
+  <hr>
+  <form action="/search">
+    <!-- 폼 태그 안에 있더라도 버튼 타입을 버튼으로 만들어주면 폼제출 안함 -->
+    <button type="button">Please do not submit the form</button>
     <p>
       <label for="username">Enter a username :</label>
       <input id="username" type="text" placeholder="username">
@@ -21,7 +26,8 @@
       <label for="password">Enter a password :</label>
       <input id="password" type="password" placeholder="password">
     </p>
-
+    <!-- 폼 태그 안에 있는 버튼은 언제나 폼 제출 -->
+    <button>In the middle</button>
     <p>
       <label for="color">pick a color :</label>
       <input id="color" type="color">
@@ -32,11 +38,19 @@
       <input id="number" type="number" placeholder="enter a number">
     </p>
 
+    <!-- 이렇게 중첩해서 사용해도 되지만 흔히쓰지 않는다. 
+      (중첩되어 있으므로 따로 아이디 지정필요 없음) -->
     <p>
-      <label for="time">Enter a time :</label>
-      <input id="time" type="time">
+      <label>
+        Enter a time :
+        <input type="time">
+      </label>
     </p>
 
+
+    <!-- 둘다 폼을 제출한다 -->
+    <button>submit!!</button>
+    <input type="submit" value="Click me!">
   </form>
 
 </body>
