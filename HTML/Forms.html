@@ -9,9 +9,7 @@
 
 <body>
   <h1>Forms Demo</h1>
-
-
-
+  <h2>Our First Form</h2>
 
   <form action="/search">
     <!-- 폼 태그 안에 있더라도 버튼 타입을 버튼으로 만들어주면 폼제출 안함 -->
@@ -34,7 +32,7 @@
 
     <p>
       <label for="number">Enter a number :</label>
-      <input id="number" type="number" placeholder="enter a number" name="number" min="1" max="1000" step="2">
+      <input id="number" type="number" placeholder="enter a number" name="num" min="1" max="1000" step="2">
     </p>
 
     <!-- 이렇게 중첩해서 사용해도 되지만 흔히쓰지 않는다. 
@@ -59,7 +57,6 @@
   <hr>
 
   <h2>Hijacking Search</h2>
-
   <h3>Search Reddit</h3>
   <form action="http://www.reddit.com/search">
     <input type="text" name="q">
@@ -111,6 +108,30 @@
       <textarea name="Requests?" id="requests" cols="30" rows="10" placeholder="Type Something Here"></textarea>
     </p>
     <button>submit</button>
+  </form>
+
+
+  <h2>Validation Demo</h2>
+  <form action="/dummy">
+    <p>
+      <label for="first">Enter First name</label>
+      <input type="text" name="first" id="first" required>
+    </p>
+
+    <p>
+      <label for="username">Username</label>
+      <input type="text" name="user" id="username" minlength="2" maxlength="20" required>
+    </p>
+    <p>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+    </p>
+    <p>
+      <label for="website">Website</label>
+      <input type="url" name="website" id="website">
+    </p>
+
+    <button>Submit</button>
   </form>
 
 </body>
