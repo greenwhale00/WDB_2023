@@ -35,21 +35,20 @@
 
     <div>
       <label for="email">Email</label>
-      <input type="email" name="email" id="email">
+      <input type="email" name="email" id="email" required>
       <label for="password">Password</label>
-      <input type="password" name="password" id="password">
+      <input type="password" name="password" id="password" required>
     </div>
-    <p>
+
+    <div>
       <label for="age">Select Age Group</label>
       <select name="age" id="age">
-        <option value="">under 18</option>
-        <option value="">18-30</option>
-        <option value="">30-50</option>
-        <option value="">50+</option>
+        <option value="kids">under 18</option>
+        <option value="ya">18-30</option>
+        <option value="adults">30-50</option>
+        <option value="seniors">50+</option>
       </select>
-    </p>
-
-
+    </div>
 
     <button>Register!</button>
   </form>
