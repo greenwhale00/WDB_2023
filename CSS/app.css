@@ -1,3 +1,14 @@
 h2 {
   color: olivedrab;
+  background-color: oldlace;
+}
+
+button {
+  color: teal;
+  background-color: thistle;
+}
+
+p {
+  color: royalblue;
+  background: darkseagreen;
 }
