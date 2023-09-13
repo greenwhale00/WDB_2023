@@ -1,11 +1,11 @@
 h2 {
-  color: olivedrab;
+  color: rgb(89, 151, 0);
   background-color: oldlace;
 }
 
 button {
   color: teal;
-  background-color: thistle;
+  background-color: #ff5733;
 }
 
 p {
