@@ -21,6 +21,10 @@ span {
   color: #457b9d;
 }
 
+.post a {
+  color: #da2c38;
+}
+
 .tag {
   background-color: #e63946;
   color: #fff;
