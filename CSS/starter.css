@@ -36,6 +36,10 @@ span {
   color: #f1faee;
 }
 
+.post button:active {
+  background-color: #ff7d00;
+}
+
 .tag {
   background-color: #e63946;
   color: #fff;
