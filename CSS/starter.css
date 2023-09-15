@@ -40,6 +40,10 @@ span {
   background-color: #ff7d00;
 }
 
+.post:nth-of-type(2n) {
+  background-color: #dfe8dc;
+}
+
 .tag {
   background-color: #e63946;
   color: #fff;
