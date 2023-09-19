@@ -94,6 +94,9 @@ button:hover {
   background-color: #2196f3;
 }
 
-button {
+
+
+/* 인라인(html 안에서 쓰는거) 스타일이 1등이지만 임폴턴트가 그 다음 우선순의  */
+/* button {
   background-color: magenta !important;
-}
+} */
