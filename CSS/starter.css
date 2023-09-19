@@ -92,5 +92,8 @@ a[href*="google"] {
 
 button:hover {
   background-color: #2196f3;
-  font-size: 11px;
+}
+
+button {
+  background-color: magenta !important;
 }
