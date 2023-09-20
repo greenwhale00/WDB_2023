@@ -1,9 +1,28 @@
-h1 {
+/* h1 {
+  display: inline;
   background-color: palegoldenrod;
   border: 1px solid black;
 }
 
 span {
+  display: block;
   background-color: paleturquoise;
   border: 1px solid black;
+} */
+
+span {
+  background-color: palevioletred;
+  border: 1px solid black;
+  width: 500px;
+  padding: 50px;
+  margin: 50px;
+}
+
+h1 {
+  background-color: paleturquoise;
+  border: 1px solid black;
+  width: 300px;
+  padding: 50px;
+  margin: 100px;
+
 }
