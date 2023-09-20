@@ -28,6 +28,7 @@ h1 {
   width: 300px;
   padding: 50px;
   margin: 100px;
+  display: none;
 }
 
 div {
