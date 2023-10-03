@@ -9,3 +9,9 @@ section {
   height: 50%;
   background-color: rgb(245, 222, 179, 0.7);
 }
+
+#opacity {
+  width: 50%;
+  height: 50%;
+  background-color: yellow;
+}
