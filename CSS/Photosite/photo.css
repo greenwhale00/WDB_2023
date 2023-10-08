@@ -1,3 +1,16 @@
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
 img {
-  width: 250px;
+  width: 30%;
+  margin: calc(10%/6);
+}
+
+nav {
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  margin-left: calc(10%/6);
+  width: 30%;
+  padding: 20px 0;
 }
