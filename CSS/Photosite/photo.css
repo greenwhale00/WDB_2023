@@ -13,4 +13,6 @@ nav {
   margin-left: calc(10%/6);
   width: 30%;
   padding: 20px 0;
+  font-weight: 900;
+  font-style: italic;
 }
