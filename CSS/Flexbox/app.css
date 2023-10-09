@@ -7,9 +7,19 @@ h1 {
 }
 
 #container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
   background-color: #003049;
   width: 90%;
   height: 500px;
   margin: 0 auto;
-  border: 5px solid #003049;
+  border: 5px solid darkorange;
+}
+
+#container div {
+  width: 200px;
+  height: 200px;
 }
