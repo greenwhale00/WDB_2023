@@ -1,0 +1,19 @@
+body {
+  font-family: 'Jost', sans-serif;
+}
+
+h1 {
+  font-size: 6em;
+  text-align: center;
+}
+
+nav {
+  font-size: 1.6em;
+}
+
+ul,
+li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
