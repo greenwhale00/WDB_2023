@@ -50,3 +50,21 @@ div:nth-of-type(5) {
   flex-grow: 2;
   flex-shrink: 0;
 }
+
+main {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid black;
+  display: flex;
+}
+
+main .sidebar {
+  background-color: blueviolet;
+  border: 2px solid ghostwhite;
+  flex: 1;
+}
+
+main .content {
+  background-color: goldenrod;
+}
