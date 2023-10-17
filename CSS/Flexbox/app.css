@@ -1,5 +1,6 @@
 body {
   font-family: 'Kanit', sans-serif;
+  text-align: center;
 }
 
 h1 {
@@ -62,9 +63,10 @@ main {
 main .sidebar {
   background-color: blueviolet;
   border: 2px solid ghostwhite;
-  flex: 1;
+  flex: 1 2 300px;
 }
 
-main .content {
+main .maincontent {
   background-color: goldenrod;
+  flex: 2 1 800px;
 }
