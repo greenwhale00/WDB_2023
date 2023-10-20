@@ -20,6 +20,14 @@ li {
   padding: 0;
 }
 
+ul {
+  border: 1px dashed orangered;
+  display: flex;
+  flex: 1;
+  max-width: 50%;
+  justify-content: space-evenly;
+}
+
 /* @media (min-width:600px) and (max-width:800px) {
   h1 {
     color: burlywood;
