@@ -89,6 +89,10 @@ h1 {
   h1 {
     font-size: 7em;
   }
+
+  nav {
+    flex-direction: column;
+  }
 }
 
 @media (max-width:576px) {
