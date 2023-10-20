@@ -90,15 +90,13 @@ h1 {
     font-size: 7em;
   }
 
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-
+  nav,
   nav ul {
     flex-direction: column;
     align-items: center;
   }
+
+
 }
 
 @media (max-width:576px) {
