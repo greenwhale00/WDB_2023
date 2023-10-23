@@ -203,3 +203,9 @@ body {
   font-size: 32px;
   font-weight: 700;
 }
+
+.pricing-button {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348efe;
+}
