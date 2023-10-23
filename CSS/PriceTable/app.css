@@ -212,9 +212,29 @@ body {
   padding: 15px 35px;
   text-decoration: none;
   margin: 25px 0;
+  transition: background-color 200ms ease-in-out;
 }
 
 .pricing-button:hover,
 .pricing-button:focus {
   background-color: #e1f1ff;
+}
+
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: #f1f1f1;
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:focus {
+  background-color: #269aff;
+  color: #f1f1f1;
+}
+
+
+@media (min-width:900px) {
+  .panel {
+    display: flex;
+    flex-direction: row;
+  }
 }
